@@ -87,4 +87,5 @@ endstop_pin: probe:z_virtual_endstop    ; IR probe
 
 This will disable the endstop and use the IR (or other bed probe) for homing
 
-[^1]: The IR probe has generally proven unreliable with the glass beds. While it can be used for guided tramming or mesh compensation with a PCB bed, we still recommend homing with the endstop if possible.
+> [!CAUTION]
+> The IR probe has generally proven unreliable with the glass beds. While it can be used for guided tramming or mesh compensation with a PCB bed, we still recommend homing with the endstop if possible.
